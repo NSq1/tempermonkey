@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Youtube Parent Blocker
-// @namespace    https://nsq1.github.io/
-// @version      0.8.0
+// @namespace    https://nsq1.github.io/tempermonkey/
+// @version      0.2.0
 // @description  Blocks youtube and requires someone else to unlock any video
 // @author       NSq1
 // @updateURL    https://nsq1.github.io/tempermonkey/youtube.parent.blocker/youtube.parent.bloker.meta.js
@@ -11,7 +11,6 @@
 // @grant        none
 // ==/UserScript==
 
-//remove playback on channel pages
 window._pause=true;
 window._oldURL="";
 
